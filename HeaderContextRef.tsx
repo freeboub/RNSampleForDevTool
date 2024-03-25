@@ -20,7 +20,9 @@ type HeaderProviderRefProps = PropsWithChildren<{
 const HeaderProviderRef = ({children}: HeaderProviderRefProps) => {
   const {header, setHeader} = useContext(HeaderContext);
   const headerRef = useRef(header);
+  headerRef.current = header;
   const setHeaderRef = useRef(setHeader);
+  setHeaderRef.current = setHeader;
 
   const value = useMemo(
     () => ({

@@ -1,6 +1,6 @@
 This is a sample [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-The goal of this app is to show how to optimize context usage using "ContextRef" as described here: FIXME
+The goal of this app is to show how to optimize context usage using "ContextRef" as described [in this medium article](https://medium.com/@freeboub/the-react-native-context-trap-c9a08feac184)
 
 # Getting Started
 
